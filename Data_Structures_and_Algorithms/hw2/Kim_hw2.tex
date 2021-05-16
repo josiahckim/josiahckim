@@ -1,0 +1,215 @@
+% Search for all the places that say "PUT SOMETHING HERE".
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,enumerate}
+
+\def\Name{Josiah Kim}  % Your name
+\def\SID{948500821}  % Your student ID number (e.g. 938231937)
+\def\Login{juk483} % Your login (e.g. pzm11)
+\def\Homework{2} % Number of Homework
+\def\Session{Spring 2021}
+
+
+\title{CMPSC 465 -- Spring 2021 --- Solutions to Homework \Homework}
+\author{\Name, SID \SID, \texttt{\Login}}
+\markboth{CMPSC 465 --\Session\  Homework \Homework\ \Name}{CMPSC 465 --\Session\ Homework \Homework\ \Name, \texttt{\Login}}
+\pagestyle{myheadings}
+
+\newenvironment{qparts}{\begin{enumerate}[{(}a{)}]}{\end{enumerate}}
+\def\endproofmark{$\Box$}
+\newenvironment{proof}{\par{\bf Proof}:}{\endproofmark\smallskip}
+
+\textheight=9in
+\textwidth=6.5in
+\topmargin=-.75in
+\oddsidemargin=0.25in
+\evensidemargin=0.25in
+
+
+\begin{document}
+\maketitle
+
+\section*{1. Acknowledgements}
+\begin{qparts}
+\item
+I did not work in a group.
+\item
+I did not consult with any of my group members.
+\item
+I did not consult any non-class materials.
+\end{qparts}
+
+
+
+\newpage
+\section*{2. Compare growth rates}
+\begin{qparts}
+\item
+Polynomials grow according to their exponents. Since 1.5 $>$ 1.3: $$f = \Omega (g)$$
+
+\item
+Exponentials grow according to their base. The base is 2 in both cases. 
+$$f = \Theta(g)$$
+
+\item
+f is an exponential while g is a polynomial. 
+$$f = \Omega (g)$$
+
+\item
+f is $O(3^n)$ and g is $O(2^n)$.
+$$f = \Omega(g)$$
+
+\item
+f is $O((logn)^100)$; g is $O(n^0.1)$
+$$f = \Omega(g)$$
+
+\item
+Polynomials grow slower than logs. 
+$$f = \Omega(g)$$
+
+\item
+Factorials grow faster than exponentials. 
+$$f = O(g)$$
+
+\item
+$f = log(e^n) = nlog(e)$. f is $O(n)$ and g is $O(nlogn)$. 
+$$f = O(g)$$
+
+\item
+f is $O(n)$, g is $O((logn)^2)$
+$$f = O(g)$$
+
+\item
+f is $O(n)$, g is $O(n)$
+$$f = \Theta(g)$$
+
+\end{qparts}
+
+
+\newpage
+\section*{3.Polynomials and Horner's Rule}
+\begin{qparts}
+\item
+The first multiplication is $a * x$. The second is $a * x * x$. The third is $a * x * x * x$. The number of multiplications are dependent on n and its previous $n$-number of multiplications which can be translated to $\frac{n(n-1)}{2}$. 
+
+The first addition is $(a * x) + (a * x * x)$. The second addition is $firstSum + (a * x * x * x)$. The last sum will always be $nSum + a_{0}$. Therefore, the number of additions can be represented by $n+1$.
+
+Therefore, $T(n) = \frac{n(n-1)}{2} + n + 1$ which gives us the time complexity of $O(n^2)$
+
+\item
+LOOP INVARIANT:\\
+$i = 3$: $z = zx_{0} + a_3$\\
+$i = 2$: $z = (zx_{0} + a_{3})x_{0} + a_{2}$\\
+$i = 1$: $z = ((zx_{0} + a_{3})x_{0} + a_{2})x_{0} + a_{1}$\\
+$i = 0$: $z = (((zx_{0} + a_{3})x_{0} + a_{2})x_{0} + a_{1})x_{0} + a_{0}$\\
+By expanding, we get: $z = zx_{0}^{4} + x_{0}^{3}a_{3} + x_{0}^{2}a_{2} + x_{0}^{1}a_{1} + a_{0}$\\
+After j iterations, we get: $z = \sum_{j = 0}^{i-1} x_{0}^{j}a_{j} $\\
+
+INITIALIZATION:\\
+We will assume that $a_{n} \subset \mathbb{N}$.\\
+Before the loop, set $n = 4$ so $z = a_{4} = 4$.\\
+This should equal: $4+3x_{0}^{3}+2x_{0}^{2}+0$\\
+$z = x_{0}^{4} + x_{0}^{3}a_{3} + x_{0}^{2}a_{2} + x_{0}^{1}a_{1} + a_{0}$\\
+True.
+
+MAINTENANCE:\\
+We will assume LI holds for $i$. Need to prove it holds for $i+1$. \\
+$z_{after} = $ val of z after $i+1$ iterations \\
+$z_{after} = z_{before}x_{0} + a_{i} = $ \\
+(By LI) \\
+$= (\sum_{j = 0}^{i-1} x_{0}^{j}a_{j})x_{0} + a_{i} = \sum_{j = 0}^{i-1} x_{0}^{j+1}a_{j} + a_{i} = \sum_{j = 0}^{i} x_{0}^{j}a_{j} = \sum_{j = 0}^{j_{after}-1} x_{0}^{j}a_{j} $\\
+The last $a_{0}$ will always be 0.\\
+True.
+
+TERMINATION:\\
+At termination, z returns with the value after n loops: $x_{0}^{n}a_{n} +...+ x_{0}a_{1} + a_{0})$\\
+This is the same format as $p(x_{0})$.\\
+True.
+
+\item
+This algorithm is similar to the brute-force method in the fact that it will wait until the end to calculate the sum. However, the product is also calculated at the end. \\
+When $i = 3$, z returns: $(((zx_{0} + a_{3})x_{0} + a_{2})x_{0} + a_{1})x_{0} + a_{0}$\\
+There are n-number of additions and products (assuming $a_{0}$ is always zero). \\
+Therefore, the numbers of sums can be represented by $O(n)$ and the number of products can also be represented by $O(n)$. Therefore, the time complexity results in $O(n)$.
+
+\end{qparts}
+\newpage
+\section*{4.Solving Recurrences}
+\begin{qparts}
+\item
+Branching Factor: 2\\
+Height: $log_{2}(n)$ \\
+Size of Subproblems at Depth $k$: $(\frac{n}{2^{k}})^\frac{1}{2} = \frac{\sqrt{n}}{2^{\frac{k}{2}}}$\\
+Number of Subproblems at Depth $k$: $2^k$ \\
+$T(n) = \sum_{k = 1}^{log_{2}{n}} 2^{k} * 1 * \frac{\sqrt{n}}{2^{\frac{k}{2}}}$\\
+$T(n) = \sqrt{n} * \sum_{k = 1}^{log_{2}{n}} \frac{2^{k}}{2^{\frac{k}{2}}}$ \\
+$T(n) = \sqrt{n} * \sum_{k = 1}^{log_{2}{n}} 2^{\frac{k}{2}}$ \\
+$T(n) = \sqrt{n} * \frac{\Theta(2^{\frac{1}{2}log_{2}n})}{\Theta(\sqrt{n})}$ \\
+$T(n) = \Theta(2^{\frac{1}{2}log_{2}n})$ \\
+$T(n) = \Theta(\sqrt{n})$ 
+
+\item
+Branching Factor: 2 \\
+Height:$log_{3}(n)$\\
+Size of Subproblems at Depth $k$: $(\frac{n}{3^{k}})^{0} = 1$\\
+Number of Subproblems at Depth $k$: $2^{k}$\\
+$T(n) = \sum_{k=0}^{log_{3}n} 2^{k} * 1 * 1$\\
+$T(n) = \sum_{k=0}^{log_{3}n} 2^{k}$ \\
+$T(n) = \frac{\Theta(2^{log_{3}n})}{\Theta(1)}$ \\
+$T(n) = \Theta(2^{log_{3}n})$
+
+\item
+Branching Factor: 5 \\
+Height: $log_{4}n$\\
+Size of Subproblems at Depth $k$: $\frac{n}{4^{k}}$ \\
+Number of Subproblems at Depth $k$: $5^{k}$ \\
+$T(n) = \sum_{k=0}^{log_{4}n} 5^{k} * 1 * \frac{n}{4^{k}}$\\
+$T(n) = n \sum_{k=0}^{log_{3}n} \frac{5^{k}}{4^{k}}$ \\
+$T(n) = n (\frac{5}{4})^{log_{4}n}$ \\
+$T(n) = n * \frac{\Theta((\frac{5}{4})^{log_{4}n})}{\Theta(n)}$ \\
+$T(n) = \Theta((\frac{5}{4})^{log_{4}n})$
+
+
+\item
+Branching Factor: 6\\
+Height: $log_{7}n$\\
+Size of Subproblems at Depth $k$: $\frac{n}{7^{k}}$\\
+Number of Subproblems at Depth $k$: $7^{k}$\\
+$T(n) = \sum_{k=0}^{log_{7}n} 7^{k} * 1 * \frac{n}{7^{k}}$\\
+$T(n) = n \sum_{k=0}^{log_{7}n} \frac{7^{k}}{7^{k}}$\\
+$T(n) = \Theta(1)$
+
+\item
+Branching Factor: 9\\
+Height: $log_{9}n$\\
+Size of Subproblems at Depth $k$: $(\frac{n}{3^{k}})^{2} = \frac{n^{2}}{3^{2k}} = \frac{n^2}{9^k}$\\
+Number of Subproblems at Depth $k$:$9^k$\\
+$T(n) = \sum_{k=0}^{log_{9}n} 9^{k} * 1 * \frac{n^2}{9^{k}}$\\
+$T(n) = n^{2} \sum_{k=0}^{log_{9}n}  1 $\\
+$T(n) = n^{2} * \frac{\Theta(1)}{\Theta(n^2)}$\\
+$T(n) = \Theta(1)$
+
+
+
+
+
+
+\end{qparts}
+
+\newpage
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

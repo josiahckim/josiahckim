@@ -1,0 +1,116 @@
+% Search for all the places that say "PUT SOMETHING HERE".
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,textcomp,amssymb,geometry,graphicx,enumerate,listings,graphicx}
+
+\def\Name{Josiah Kim}  % Your name
+\def\SID{948500821}  % Your student ID number (e.g. 938231937)
+\def\Login{juk483} % Your login (e.g. pzm11)
+\def\Homework{8} % Number of Homework
+\def\Session{Spring 2021}
+
+
+\title{CMPSC 465 -- Spring 2021 --- Solutions to Homework \Homework}
+\author{\Name, SID \SID, \texttt{\Login}}
+\markboth{CMPSC 465 --\Session\  Homework \Homework\ \Name}{CMPSC 465 --\Session\ Homework \Homework\ \Name, \texttt{\Login}}
+\pagestyle{myheadings}
+
+\newenvironment{qparts}{\begin{enumerate}[{(}a{)}]}{\end{enumerate}}
+\def\endproofmark{$\Box$}
+\newenvironment{proof}{\par{\bf Proof}:}{\endproofmark\smallskip}
+
+\textheight=9in
+\textwidth=6.5in
+\topmargin=-.75in
+\oddsidemargin=0.25in
+\evensidemargin=0.25in
+
+
+\begin{document}
+\maketitle
+
+
+\section*{1. Getting started}
+\begin{qparts}
+\item
+I did not work in a group.
+\item
+I did not consult with any of my group members.
+\item
+I did not consult any non-class materials.
+\end{qparts}
+
+
+
+\newpage
+\section*{2. Connectivity Detection}
+
+\begin{lstlisting}
+function detectConnectivity(G):
+	for each edge (u, v):
+		if visited(v) == true:
+			return "yes"
+		else: 
+			visited(u) = true
+	return("no")
+\end{lstlisting}\\
+This algorithm essentially detects a cycle using the structure of the $explore()$ method. We know that there needs to exist a cycle in a graph for an edge to be removed and still stay connected. In a connected, undirected graph, you can have at most $|V|-1$ amount of edges before a cycle is formed. Therefore, this algorithm will iterate, at the most, $|V|$ times if there happens to be a cycle. Therefore, the runtime of this algorithm will be $O(|V|)$.
+
+
+\newpage
+\section*{3. Shortest Path and MST}
+\begin{qparts}
+
+\item 
+
+CLAIM: The MST changes when for all edge weights $w'_{e} := w_e - 1$.
+
+EXAMPLE: \\
+Say we have a graph G, with vertices $V = \{A, B, C, D\}$. The edge weights are as follows: \\
+$w_{(A, B)} = 3$ \\
+$w_{(A, C)} = 1$ \\
+$w_{(C, D)} = 1$ \\
+$w_{(D, B)} = 2$ 
+
+The MST would look like this: $A-B$, $A-C$, $C-D$ with a total cost of 5. 
+
+Decreasing all the edge weights, we get a graph with the following edge weights:\\
+$w_{(A, B)} = 2$ \\
+$w_{(A, C)} = 0$ \\
+$w_{(C, D)} = 0$ \\
+$w_{(D, B)} = 1$ 
+
+The new MST would look like this: $A-C$, $C-D$, $D-B$ with a total cost of 1. 
+
+
+\item 
+CLAIM: The shortest path changes when for all edge weights $w'_{e} := w_e - 1$.
+
+EXAMPLE: Say we have a an edge, $(u, v)$, with $w_{(u, v)} = 2$. There is also another path from $u$ to $v$ that have edges with weights of $w_{(u, s)} = 1$, $w_{(s, t)} = 1$, $w_{(t, v)} = 1$. 
+
+Without decresing the edge weights, the shortest path would be $u-v$ with a cost of 2. However, if all edge weights are decreased 1, the path $u-s-t-v$ would cost 0 and become the new shortest path. 
+
+\end{qparts}
+
+\newpage
+\section*{4.MST and Cut Property}
+
+CLAIM: All the vertices and edges in both $T$ and $H$ are in an MST of $H$.
+\\
+PROOF:\\
+We can assume that, by being a subgraph of $G$, $H$ is essentially a cut. Let $(S, V-S)$ be a cut that respects $H$. By the cut property, we are guaranteed that the edge of lowest weight, $e$, connecting the cut will be included in $T$. In other words, H $\cup \{e\}$ will be included in $T$. This means that $H \subset T$. Since $H \subset T$, it cannot contain any cycles because $T$ is a tree which is acyclic. Since $H$ is acyclic, the MST of $H$, $Y$, must be the same: $H$ = $Y$. Therefore, we can say that all the vertices and edges within $H$ is in $Y$. Futhermore, since $H \subset T$, all the vertices and edges within $T$ must also be in $Y$.
+
+\newpage
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
