@@ -1,4 +1,4 @@
-<!-- **Welcome to my page!** -->
+## Welcome to my page!
 
 I am currently in my last semester in both Social Data Analytics and Philosophy. 
 
