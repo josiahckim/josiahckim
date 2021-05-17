@@ -13,7 +13,9 @@ This page will be a compilation of all my coursework throughout my time at Penn 
 
 # My Latest Research Projects
 
-### What can law schools do to increase post-graduate success? 
+### What Can Law Schools do to Increase Post-Graduate Success? 
 - https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_FinalPaper.pdf
-### 
+### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes
 https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf
+
+# 
