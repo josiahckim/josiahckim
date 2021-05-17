@@ -18,4 +18,5 @@ This page will be a compilation of all my coursework throughout my time at Penn 
 ### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes
 - https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf
 
-# 
+# Some Philosophy 
+
