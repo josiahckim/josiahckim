@@ -1,6 +1,6 @@
 # Welcome!
 
-This page will be a compilation of all my coursework throughout my time at Penn State which includes (but not limited to) philosophical essays, programming projects, and research projects.
+This page will be a compilation of coursework throughout my time at Penn State which includes (but is not limited to) philosophical essays, programming projects, and research projects.
 
 # About Me
 
