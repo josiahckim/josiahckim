@@ -4,11 +4,12 @@ This page will be a compilation of all my coursework throughout my time at Penn 
 
 ## About me
 
-My name is Josiah Kim and I am currently in my last semester in the Social Data Analytics and Philosophy majors. 
-
+- Name: Josiah Kim 
+- School: The Pennsylvania State University (University Park)
+- Major(s): Social Data Analytics, Philosophy 
 - Pronouns: He/Him
 - Career Interest: Data Analysis
 
 
-## Take a peek at my latest research project
+## Take a peek at my latest research projects
 
