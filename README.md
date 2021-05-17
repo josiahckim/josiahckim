@@ -1,8 +1,8 @@
-## Welcome to my page!
+## Welcome!
 
 This page will be a compilation of all my coursework throughout my time at Penn State which includes philosophical essays, programming scripts, and research projects.
 
-## About me:
+## About me
 
 My name is Josiah Kim and I am currently in my last semester in the Social Data Analytics and Philosophy majors. 
 
@@ -10,5 +10,5 @@ My name is Josiah Kim and I am currently in my last semester in the Social Data 
 - Career Interest: Data Analysis
 
 
-## Take a peek at my latest research project: 
+## Take a peek at my latest research project
 
