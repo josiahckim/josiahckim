@@ -1,6 +1,6 @@
 # Welcome!
 
-This page will be a compilation of all my coursework throughout my time at Penn State which includes philosophical essays, programming scripts, and research projects.
+This page will be a compilation of all my coursework throughout my time at Penn State which includes (but not limited to) philosophical essays, programming projects, and research projects.
 
 # About Me
 
@@ -18,7 +18,7 @@ This page will be a compilation of all my coursework throughout my time at Penn 
 ### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes
 - https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf
 
-# Some Philosophy 
+# Some Interesting Philosophy 
 
 ### Explaining Anti-Vaxxers and Science-Deniers 
 - https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf
