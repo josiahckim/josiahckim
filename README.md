@@ -1,8 +1,8 @@
-## Welcome!
+# Welcome!
 
 This page will be a compilation of all my coursework throughout my time at Penn State which includes philosophical essays, programming scripts, and research projects.
 
-## About me
+# About Me
 
 - Name: Josiah Kim 
 - School: The Pennsylvania State University (University Park)
@@ -11,5 +11,6 @@ This page will be a compilation of all my coursework throughout my time at Penn 
 - Career Interest: Data Analysis
 
 
-## Take a peek at my latest research projects
+# My Latest Research Projects
 
+https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_FinalPaper.pdf
