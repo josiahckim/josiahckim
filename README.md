@@ -18,7 +18,7 @@ This page will be a compilation of coursework throughout my time at Penn State w
 ### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes
 - https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf
 
-# Some Interesting Philosophy 
+# My Interesting Thought Experiments 
 
 ### Explaining Anti-Vaxxers and Science-Deniers 
 - https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf
