@@ -9,6 +9,10 @@ This page will be a compilation of coursework throughout my time at Penn State w
 - Major(s): Social Data Analytics, Philosophy 
 - Pronouns: He/Him
 - Career Interest: Data Analysis
+- Resume: https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf
+- Other Interests:
+- - Photography: https://josiahckim.com/
+- - SparkleBNB: https://sparklebnb.com/
 
 
 # My Latest Research Projects
