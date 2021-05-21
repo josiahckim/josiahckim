@@ -6,9 +6,9 @@ This repository will be a compilation of coursework throughout my time at Penn S
 # About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf))
 
 - Name: Josiah Kim (He/Him)
-- Career Interest(s): Data Analytics, Data Science
 - School: The Pennsylvania State University (University Park)
 - Major(s): Social Data Analytics, Philosophy 
+- Career Interest(s): Data Analytics, Data Science
 - Other Interests:
 	 - Photography: https://josiahckim.com/
 	 - SparkleBNB: https://sparklebnb.com/
