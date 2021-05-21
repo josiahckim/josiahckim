@@ -20,5 +20,5 @@ This page will be a compilation of coursework throughout my time at Penn State w
 
 # Interesting Thought Experiments 
 
-### Explaining Anti-Vaxxers and Science-Deniers 
+### Explaining Anti-Vaxxers and Science-Deniers Through the Philosophy of Science 
 - https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf
