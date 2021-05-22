@@ -2,7 +2,7 @@
 
 # Welcome!
 
-This repository will be a compilation of coursework throughout my time at Penn State which includes (but is not limited to) research projects, philosophical essays, and programming projects.
+This repository will be a compilation of relevant coursework throughout my time at Penn State which includes (but is not limited to) research projects, philosophical essays, and programming projects.
 
 # About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf))
 
