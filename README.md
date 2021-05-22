@@ -28,6 +28,10 @@ This repository will be a compilation of relevant coursework throughout my time 
 ### Removing Racial Bias when Predicting Recidivism
 - https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_Module3.pdf 
 
+# Programming Projects
+### Web-Scraping Wikipedia for Election Data without an API
+- 
+
 # Interesting Thought Experiments 
 
 ### Explaining Anti-Vaxxers and Science-Deniers Through the Philosophy of Science 
