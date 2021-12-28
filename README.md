@@ -36,5 +36,6 @@
 
 # Philosophy
 
-### Explaining Anti-Vaxxers and Science-Deniers Through the Philosophy of Science 
-- https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf
+### [Explaining Anti-Vaxxers and Science-Deniers Through the Philosophy of Science](https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf)
+
+
