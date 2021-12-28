@@ -14,7 +14,7 @@
 
 # Research Projects
 
-### Heat Map: Liklihood of Black Students to be Punishied in Public School Compared to White Peers ([View Jupyter Notebook])(https://github.com/josiahckim/main/blob/main/Classes/Visual_Analytics_for_Data_Sciences/Kim_GroupProjectFinal.ipynb)
+### Heat Map: Liklihood of Black Students to be Punishied in Public School Compared to White Peers ([View Jupyter Notebook](https://github.com/josiahckim/main/blob/main/Classes/Visual_Analytics_for_Data_Sciences/Kim_GroupProjectFinal.ipynb))
 
 ![Punishment](https://lh3.googleusercontent.com/pw/ACtC-3eIWAQLKvSOF6SzMuxfngkI2k5C9cNt9NQ09gA2nvLN0DdyARMs6seQ7So9JQuNl7nqLOklD1aLuR6dVnFLsdptv7L_4SG1iZ5i0q0kA7SyrInAaGJWZWkjK2ri0z208-9l6iMdjtj6I230uPRuHgcB=w1003-h682-no?authuser=0)
 
