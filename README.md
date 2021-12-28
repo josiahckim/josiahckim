@@ -11,16 +11,19 @@
 
 # Research Projects
 
-### [Heat Map: Liklihood of a Black Student to be Punishied in Public School Compared to White Peers](https://github.com/josiahckim/main/blob/main/Visual_Analytics_for_Data_Sciences/Kim_GroupProjectFinal.ipynb)
+### [Heat Map: Liklihood of Black Students to be Punishied in Public School Compared to White Peers](https://github.com/josiahckim/main/blob/main/Visual_Analytics_for_Data_Sciences/Kim_GroupProjectFinal.ipynb)
 
 ![Punishment](https://lh3.googleusercontent.com/pw/ACtC-3eIWAQLKvSOF6SzMuxfngkI2k5C9cNt9NQ09gA2nvLN0DdyARMs6seQ7So9JQuNl7nqLOklD1aLuR6dVnFLsdptv7L_4SG1iZ5i0q0kA7SyrInAaGJWZWkjK2ri0z208-9l6iMdjtj6I230uPRuHgcB=w1003-h682-no?authuser=0)
 
 - Skills: D3, JavaScript, Python, Pandas
 
-### What Can Law Schools do to Increase Post-Graduate Success? 
-- https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_FinalPaper.pdf
-### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes
-- https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf
+
+### [What Can Law Schools do to Increase Post-Graduate Success?](https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_FinalPaper.pdf)
+
+
+### [Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes](https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf)
+
+
 ### Removing Racial Bias when Predicting Recidivism
 - https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_Module3.pdf 
 
