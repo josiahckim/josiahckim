@@ -12,6 +12,7 @@
 # AI/Machine Learning Projects
 
 
+
 # Research Projects
 
 ### Heat Map: Liklihood of Black Students to be Punishied in Public School Compared to White Peers ([View Jupyter Notebook](https://github.com/josiahckim/main/blob/main/Classes/Visual_Analytics_for_Data_Sciences/Kim_GroupProjectFinal.ipynb))
@@ -21,13 +22,13 @@
 - Skills: D3, JavaScript, Python, Pandas
 
 
-### [What Can Law Schools do to Increase Post-Graduate Success?](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf)
+### What Can Law Schools do to Increase Post-Graduate Success?([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
 
 
-### [Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf)
+### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf))
 
 
-### [Removing Racial Bias when Predicting Recidivism](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf )
+### Removing Racial Bias when Predicting Recidivism([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf))
 
 
 
