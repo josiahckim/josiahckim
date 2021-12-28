@@ -22,13 +22,13 @@
 - Skills: D3, JavaScript, Python, Pandas, Jupyter
 
 
-### What Can Law Schools do to Increase Post-Graduate Success?([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
+### What Can Law Schools do to Increase Post-Graduate Success? ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
 - Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
-### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf))
+### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf))
 - Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
-### Removing Racial Bias when Predicting Recidivism([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf))
+### Removing Racial Bias when Predicting Recidivism ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf))
 - Skills: R, ggplot2, tidyverse, Multivariate Logistic Regression 
 
 
@@ -37,7 +37,7 @@
 
 
 # Programming Projects
-### Web-Scraping Wikipedia for Election Data without an API([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py))
+### Web-Scraping Wikipedia for Election Data without an API ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py))
 - Skills: Python, Pandas, BeautifulSoup, Requests, Regular Expressions
 
 
