@@ -31,7 +31,7 @@
 
 # Programming Projects
 ### [Web-Scraping Wikipedia for Election Data without an API](https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py)
-
+- Skills: Python, Pandas, BeautifulSoup, Requests, Regular Expressions
 
 
 # Philosophy
