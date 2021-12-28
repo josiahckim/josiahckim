@@ -24,14 +24,17 @@
 ### [Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes](https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf)
 
 
-### Removing Racial Bias when Predicting Recidivism
-- https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_Module3.pdf 
+### [Removing Racial Bias when Predicting Recidivism](https://github.com/josiahckim/main/blob/main/Empirical_Legal_Studies/Kim_Module3.pdf )
+
+
+
 
 # Programming Projects
-### Web-Scraping Wikipedia for Election Data without an API
-- https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py
+### [Web-Scraping Wikipedia for Election Data without an API](https://github.com/josiahckim/main/blob/main/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py)
 
-# Interesting Thought Experiments 
+
+
+# Philosophy
 
 ### Explaining Anti-Vaxxers and Science-Deniers Through the Philosophy of Science 
 - https://github.com/josiahckim/main/blob/main/Philosophy_of_Science/Kim_FinalPaper.pdf
