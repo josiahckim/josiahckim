@@ -1,21 +1,15 @@
-
-
-# Welcome!
-
-This repository will be a compilation of relevant coursework throughout my time at Penn State which includes (but is not limited to) research projects, philosophical essays, and programming projects.
-
 # About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf))
 
 - Name: Josiah Kim (He/Him)
-- School: The Pennsylvania State University (University Park)
-- Major(s): Social Data Analytics, Philosophy 
-- Career Interest(s): Data Analytics, Data Science
+- School: The Pennsylvania State University, University Park
+- Major(s): Social Data Analytics (BS), Philosophy (BA) 
+- Career Interest(s): Data Analytics, Data Science, Statistical Analysis 
 - Other Interests:
 	 - Photography: https://josiahckim.com/
 	 - SparkleBNB: https://sparklebnb.com/
 
 
-# My Latest Research Projects
+# Research Projects
  
 ![Punishment](https://lh3.googleusercontent.com/pw/ACtC-3eIWAQLKvSOF6SzMuxfngkI2k5C9cNt9NQ09gA2nvLN0DdyARMs6seQ7So9JQuNl7nqLOklD1aLuR6dVnFLsdptv7L_4SG1iZ5i0q0kA7SyrInAaGJWZWkjK2ri0z208-9l6iMdjtj6I230uPRuHgcB=w1003-h682-no?authuser=0)
 
