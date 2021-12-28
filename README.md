@@ -23,13 +23,13 @@
 
 
 ### What Can Law Schools do to Increase Post-Graduate Success?([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
-- Skills: R, ggplot2, tidyverse, Linear Regression 
+- Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
 ### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf))
-
+- Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
 ### Removing Racial Bias when Predicting Recidivism([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf))
-
+- Skills: R, ggplot2, tidyverse, Multivariate Logistic Regression 
 
 
 
