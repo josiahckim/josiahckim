@@ -12,7 +12,7 @@
 
 # AI/Machine Learning Projects
 ### Improving Machine Learning Performance Through Data Integration ([View Project Folder](https://github.com/josiahckim/main/tree/main/Classes/Data_Integration/Final_Project))
-- **Group Members**: Daniel Chadourne, Jess Strait, Cayla Pun, Josiah Kim, Julia Wurzel 
+- **Group Members**: Daniel Chadourne, Jess Strait, Cayla Pun, Julia Wurzel 
 - **Description**: This project aims to answer the broad research question: does data integration improve machine learning performance? By integrating datasets from the Federal Emergency Management Agency (FEMA), the U.S. Census, and Zillow, we show that data integration does, in fact, improve machine learning performance by a large margin. 
 - **Skills**: R, Python, pandas, Multivariate Linear Regression, scikit-learn, Feature Selection, Hyperparameter Tuning
 
