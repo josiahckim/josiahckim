@@ -2,7 +2,7 @@
 - **Name**: Josiah Kim (He/Him)
 - **School**: The Pennsylvania State University, University Park
 - **Majors**: Social Data Analytics (BS), Philosophy (BA) 
-- **Career Interests**: Research Data Analytics, People Analytics, Data Analytics, Data Science, Statistical Analysis,
+- **Career Interests**: Research Data Analytics, People Analytics, Data Analytics, Data Science, Statistical Analysis
 - **Other Interests**:
 	 - **Photography**: https://josiahckim.com/
 	 - **Business**: https://sparklebnb.com/
