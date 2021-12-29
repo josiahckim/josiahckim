@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Research_Paper.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Repeated entry---line 307 of file references.bib
+ : @article{RaffaeleMendez2003
+ :                            ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in Aizer2015
+Warning--No journal in Ali2008
+Warning--No journal in Graham2011
+Warning--No journal in Schiff2013
+ptr=1, stack=
+
+---the literal stack isn't empty for entry Schiff2013
+while executing---line 5079 of file apacite.bst
+Warning--No journal in Wilson2014
+You've used 18 entries,
+            6951 wiz_defined-function locations,
+            1411 strings with 15261 characters,
+and the built_in function-call counts, 39486 in all, are:
+= -- 4814
+> -- 283
+< -- 2214
++ -- 2336
+- -- 36
+* -- 2756
+:= -- 7910
+add.period$ -- 72
+call.type$ -- 18
+change.case$ -- 306
+chr.to.int$ -- 0
+cite$ -- 41
+duplicate$ -- 939
+empty$ -- 1343
+format.name$ -- 478
+if$ -- 7069
+int.to.chr$ -- 0
+int.to.str$ -- 54
+missing$ -- 0
+newline$ -- 476
+num.names$ -- 144
+pop$ -- 451
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 2373
+stack$ -- 0
+substring$ -- 2500
+swap$ -- 569
+text.length$ -- 36
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1440
+warning$ -- 5
+while$ -- 160
+width$ -- 0
+write$ -- 589
+(There were 2 error messages)

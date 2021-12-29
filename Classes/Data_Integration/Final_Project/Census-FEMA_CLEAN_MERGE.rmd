@@ -1,0 +1,67 @@
+---
+title: "DS 320 Data Cleaning"
+output: html_notebook
+---
+
+```{r}
+# Front Matter
+rm(list = ls())
+
+# Load packages
+library(DataComputing)
+library(mosaic)
+library(ggplot2)
+library(openintro)
+library(dplyr)
+library(stringr)
+```
+
+```{r}
+# Join in census data
+rawdata <- read.csv("DisasterDeclarationsSummaries.csv")
+censusdata <- read.csv("county_census_data.csv")
+PublicAssistanceData <- read.csv("PublicAssistanceData.csv")
+census <- censusdata %>% select(State, County, TotalPop, Men, Women, Hispanic, White, Black, Native, Asian, Pacific, Income, Poverty, Unemployment)
+data <- rawdata %>% filter(declarationType != "FM") %>% filter(fyDeclared > 1999) %>% filter(paProgramDeclared == 1) %>% filter(designatedArea != 'Statewide') %>% select(designatedArea, state) 
+
+# Clean county variable from FEMA data
+data$designatedArea <- str_remove_all(data$designatedArea, "(County)")
+data$designatedArea <- str_remove_all(data$designatedArea, "(Parish)")
+data$designatedArea <- str_remove_all(data$designatedArea, "(Township)")
+data$designatedArea <- gsub("\\(", " ", data$designatedArea)
+data$designatedArea <- gsub("\\)", " ", data$designatedArea)
+
+# Data cleansing
+data <- data %>% group_by(designatedArea, state)
+data <- data %>% mutate(count = n())
+data <- data %>% unique()
+census$county <- census$County
+census$state <- census$State
+
+# Prepare public assistance data metrics of interest
+PublicAssistanceData$declarationDate <- substr(PublicAssistanceData$declarationDate, 0, 4)
+PublicAssistanceData <- PublicAssistanceData %>% filter(declarationDate > 1999)
+padata <- PublicAssistanceData %>% select(state, stateCode, disasterNumber, county, totalObligated) %>% group_by(disasterNumber, county, state) %>% unique()
+padata <- padata %>% group_by(county, state) %>% mutate(county_disaster_count = n())
+padata <- padata %>% group_by(disasterNumber, county, state) %>% mutate(countyObligated = sum(totalObligated))
+padata <- padata %>% group_by(county, state) %>% select(county, state, county_disaster_count, countyObligated) %>% unique()
+
+# Merge census and FEMA public assistance data
+newdata <- merge(padata, census, by=c("county", "state"))
+newdata$County <- NULL
+newdata$State <- NULL
+newdata <- newdata %>% mutate(county_disasters_perCap = county_disaster_count/TotalPop) %>% mutate(county_obligated_perCap = countyObligated/TotalPop)
+newdata <- newdata %>% unique() %>% arrange(-county_obligated_perCap)
+
+write.csv(newdata, "DS320Census-FEMA.csv")
+```
+
+
+
+
+
+
+
+
+
+
