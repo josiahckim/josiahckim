@@ -11,9 +11,9 @@
 
 
 # AI/Machine Learning Projects
-### Improving Machine Learning Performance Through Data Integration 
-- **Description**: This project aims to answer the broad research question: does data integration improve machine learning performance? By integrating datasets from the Federal Emergency Management Agency (FEMA), the U.S. Census, and Zillow, we show that data integration does improve machine learning performance. 
--  
+### Improving Machine Learning Performance Through Data Integration ([View Project Folder]())
+- **Description**: This project aims to answer the broad research question: does data integration improve machine learning performance? By integrating datasets from the Federal Emergency Management Agency (FEMA), the U.S. Census, and Zillow, we show that data integration does improve machine learning performance by a large margin. 
+- **Group Members**:  
 
 
 
