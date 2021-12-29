@@ -1,9 +1,9 @@
 # About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf))
-- Name: Josiah Kim (He/Him)
-- School: The Pennsylvania State University, University Park
-- Major(s): Social Data Analytics (BS), Philosophy (BA) 
-- Career Interest(s): Data Analytics, Data Science, Statistical Analysis 
-- Other Interests:
+- **Name**: Josiah Kim (He/Him)
+- **School**: The Pennsylvania State University, University Park
+- **Majors**: Social Data Analytics (BS), Philosophy (BA) 
+- **Career Interests**: Data Analytics, Data Science, Statistical Analysis 
+- **Other Interests**:
 	 - Photography: https://josiahckim.com/
 	 - SparkleBNB: https://sparklebnb.com/
 
@@ -26,20 +26,20 @@
 
 
 ### What Can Law Schools do to Increase Post-Graduate Success? ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
-- Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
+- **Skills**: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
 ### Donald Trump's Anti-Asian Rhetoric and Anti-Asian Hate Crimes ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_FinalProject.pdf))
-- Skills: R, ggplot2, tidyverse, Multivariate Linear Regression 
+- **Skills**: R, ggplot2, tidyverse, Multivariate Linear Regression 
 
 ### Removing Racial Bias when Predicting Recidivism ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_Module3.pdf))
-- Skills: R, ggplot2, tidyverse, Multivariate Logistic Regression 
+- **Skills**: R, ggplot2, tidyverse, Multivariate Logistic Regression 
 
 
 
 
 # Programming Projects
 ### Web-Scraping Wikipedia for Election Data without an API ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Social_Data_Analytics_Independent_Study/Kim_WebscrapingAssignment2.py))
-- Skills: Python, Pandas, BeautifulSoup, Requests, Regular Expressions
+- **Skills**: Python, Pandas, BeautifulSoup, Requests, Regular Expressions
 
 
 
