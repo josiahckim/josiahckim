@@ -14,10 +14,16 @@
 ### Improving Machine Learning Performance Through Data Integration ([View Project Folder](https://github.com/josiahckim/main/tree/main/Classes/Data_Integration/Final_Project))
 - **Group Members**: Daniel Chadourne, Jess Strait, Cayla Pun, Julia Wurzel 
 - **Description**: This project aims to answer the broad research question: does data integration improve machine learning performance? By integrating datasets from the Federal Emergency Management Agency (FEMA), the U.S. Census, and Zillow, we show that data integration does, in fact, improve machine learning performance by a large margin. 
-- **Skills**: R, Python, pandas, Multivariate Linear Regression, scikit-learn, Feature Selection, Hyperparameter Tuning
+- **Skills**: R, Python, pandas, Multivariate Linear Regression, scikit-learn
+
+### Predicting Dog Breeds Using Unsupervised Learning ([View R Script](https://github.com/josiahckim/main/blob/main/Classes/Data_Science_Through_Statistical_Reasoning_and_Computation/Dog_Breed_Project/project/src/features/FEATURES_Dog_Breed.R))
+- **Skills**: R, Rtsne, tidyverse, data.table
+
 
 ### Predicting Varieties of Wine ([View Jupyter Notebook](https://github.com/josiahckim/main/blob/main/Classes/Machine_Learning_for_Data_Analytics/Project_4/Project_4.ipynb))
-- **Skills**: 
+- **Group Members**: Daniel Chadourne
+- **Skills**: Python, pandas, TF-IDF, One-Hot Encoding, Imputation, scikit-learn, Standardization, xgboost, Random Forest, Multinominal Logistic Regression, SVM, Voting Classifier, K-Neighbors Classifier
+
 
 
 
