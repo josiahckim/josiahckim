@@ -4,15 +4,16 @@
 - **Majors**: Social Data Analytics (BS), Philosophy (BA) 
 - **Career Interests**: Data Analytics, Data Science, Statistical Analysis 
 - **Other Interests**:
-	 - Photography: https://josiahckim.com/
-	 - SparkleBNB: https://sparklebnb.com/
+	 - **Photography**: https://josiahckim.com/
+	 - **Business**: https://sparklebnb.com/
 
 
 
 
 # AI/Machine Learning Projects
-### Improving Machine Learning Performance of Predicting House Prices Through Data Integration 
-- 
+### Improving Machine Learning Performance Through Data Integration 
+- **Description**: This project aims to answer the broad research question: does data integration improve machine learning performance? By integrating datasets from the Federal Emergency Management Agency (FEMA), the U.S. Census, and Zillow, we show that data integration does improve machine learning performance. 
+-  
 
 
 
