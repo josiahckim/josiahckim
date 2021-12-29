@@ -11,7 +11,8 @@
 
 
 # AI/Machine Learning Projects
-
+### Improving Machine Learning Performance of Predicting House Prices Through Data Integration 
+- 
 
 
 
@@ -21,7 +22,7 @@
 
 ![Punishment](https://lh3.googleusercontent.com/pw/ACtC-3eIWAQLKvSOF6SzMuxfngkI2k5C9cNt9NQ09gA2nvLN0DdyARMs6seQ7So9JQuNl7nqLOklD1aLuR6dVnFLsdptv7L_4SG1iZ5i0q0kA7SyrInAaGJWZWkjK2ri0z208-9l6iMdjtj6I230uPRuHgcB=w1003-h682-no?authuser=0)
 
-- Skills: D3, JavaScript, Python, Pandas, Jupyter
+- **Skills**: D3, JavaScript, Python, Pandas, Jupyter
 
 
 ### What Can Law Schools do to Increase Post-Graduate Success? ([View Paper](https://github.com/josiahckim/main/blob/main/Classes/Empirical_Legal_Studies/Kim_FinalPaper.pdf))
