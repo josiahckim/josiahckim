@@ -4,7 +4,7 @@
 - **Majors**: Social Data Analytics (BS), Philosophy (BA) 
 - **Career Interests**: Research Data Analytics, People Analytics, Data Analytics, Data Science, Statistical Analysis
 - **Other Interests**:
-	 - **Photography**: https://josiahckim.com/
+	 - **Photography**: https://josiahkim.co/
 	 - **Business**: https://sparklebnb.com/
 
 
