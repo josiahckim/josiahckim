@@ -1,4 +1,4 @@
-# About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/KIM_RESUME.pdf))
+# About Me ([View My Resume](https://github.com/josiahckim/main/blob/main/Kim_Resume_07_21_2022.pdf))
 - **Name**: Josiah Kim (He/Him)
 - **School**: The Pennsylvania State University, University Park
 - **Majors**: Social Data Analytics (BS), Philosophy (BA) 
